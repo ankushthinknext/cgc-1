@@ -1,0 +1,22 @@
+.head {
+	display: inline;
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+}
+
+.outter {
+	height: 90vh;
+	border: red solid 2px;
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: plum;
+	border: 1px solid black;
+	flex-grow: 1;
+}

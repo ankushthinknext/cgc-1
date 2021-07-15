@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Card</title>
+		<style>
+			.card {
+				margin: auto;
+				margin-top: 200px;
+				width: 30%;
+				border-radius: 10px;
+				border: gray solid 2px;
+				position: relative;
+				box-shadow: -3px 1px 5px 0px rgba(0, 0, 0, 0.75);
+				-webkit-box-shadow: -3px 1px 5px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: -3px 1px 5px 0px rgba(0, 0, 0, 0.75);
+			}
+			.first-image {
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				z-index: -2;
+			}
+			.m-button {
+				background-color: #47bcd4;
+				border: none;
+				width: 100px;
+				height: 30px;
+				border-radius: 15px;
+				color: white;
+			}
+			.body {
+				padding: 20px;
+				position: relative;
+			}
+			.pp {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				height: 100px;
+				width: 100px;
+				border-radius: 50%;
+			}
+			.bg-image {
+				background: url("https://picsum.photos/1000");
+				height: 300px;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<img src="https://picsum.photos/1000" alt="" class="first-image" />
+			<div class="body">
+				<button class="m-button">Popular</button>
+				<h3>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ut.
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, aut
+					quisquam! Perferendis velit quis placeat. Cum, reprehenderit ipsam
+					laudantium fugiat debitis praesentium vitae eius nihil maiores itaque!
+					Molestias, reprehenderit voluptas.
+				</p>
+				<img class="pp" src="https://picsum.photos/100" alt="" />
+			</div>
+		</div>
+	</body>
+</html>
